@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  height: 3em;
+  background-color: #F4976C;
+  font-size: 20px;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-list li {
+  display: flex;
+  height: 100%;
+}
+
+.nav-list a {
+  display: flex;
+  align-items: center;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.nav-list li:hover {
+  background: lightblue;
+}
